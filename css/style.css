@@ -22,11 +22,18 @@ li{
  color: black;
 }
 legend,fieldset{
- color: lightpink;
+ color: white;
 }
 .rate{
  color: pink;
 }
-  .container {
-    column-width: 200px;
+  .column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px;
+    }
+    #row {
+  margin: 0 auto;
+  width: 610px;
 }
