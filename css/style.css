@@ -1,0 +1,32 @@
+.wow {
+  width: 100px;
+}
+body {
+  background-image: url();
+  background: lightblue;
+    color:black;
+    font-family:"Josefin Sans",sans-serif;
+   /*font-weight:bold; */
+}
+h1, h2, h3 {
+  font-family:
+  "Berkshire Swash", sans-serif
+   color: black;
+   text-shadow: 3px 3px 3px red;
+   font-style:oblique;
+  /*font-size:30px;*/
+p{
+ color: blue;
+}
+li{
+ color: black;
+}
+legend,fieldset{
+ color: white;
+}
+.rate{
+ color: pink;
+}
+  .container {
+    column-width: 200px;
+}
