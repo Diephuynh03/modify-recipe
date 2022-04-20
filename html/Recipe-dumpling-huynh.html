@@ -1,12 +1,28 @@
-<!DOCTYPE html>
+"<!DOCTYPE html>".
 <html lang="en">
   <head>
+    <style>
+      .flex-container {
+  display: flex;
+  background-color: DodgerBlue;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+    </style>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Diep's dumpling recipe</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="../css/style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet"href="https://fonts.googleapis.com/css?family=Sofia|Berkshire Swash|Josefin Sans"/>
 </head>
 <body>
+  <div class="row">
+  <div class="column" style="background-color:lightpink;">
   <h1>My Dumpling recipe</h1>
   <p>This recipe is adapted from my family recipe.</p>
   <figure>
@@ -14,6 +30,8 @@
     <figcaption>Photo By Matthew Ponsford,
 Georgia, https://www.bbc.com/travel/article/20191216-georgias-giant-dumpling-born-from-conquest</figcaption>
   </figure>
+  </div>
+    <div class="column" style="background-color:purple;">
   <h2>Ingredient</h2>
   <ul>
     <li>1 bag dumpling wrapper</li>
@@ -26,7 +44,10 @@ Georgia, https://www.bbc.com/travel/article/20191216-georgias-giant-dumpling-bor
     <li>1 tbsp salt</li>
     <li>1 tbsp of fish sauce</li>
   </ul>
-  <h3>Equipment</h3>
+    </div>
+    <div class="column" style="background-color:orange;">
+      <div class="flex-container">
+  <h1>Equipment</h1>
   <ul>
     <li>big bowl</li>
     <li>tablespoon</li>
@@ -34,21 +55,6 @@ Georgia, https://www.bbc.com/travel/article/20191216-georgias-giant-dumpling-bor
     <li>knife</li>
     <li>cutting board</li>
   </ul>
-  <h4>Direction</h4>
-  <p>step 1. Put 1 pound of ground pork in a big bowl then use the knife to cut 2 green onion in a cutting board and put everything except for the dumpling wrapper inside the big bowl.</p>
- 
-    <p>step 2. Mixed everything together and seasoning the mixture according to your taste.</p>
- 
-    <p>step 3. take the dumpling wrapper out of the plastic bag, place a piece of the dumpling wrapper in your palm.</p>
- 
-    <p>step 4. use a tablespoon to scoop the meat mixture and place the appropriate amount upon the dumpling wrappers.</p>
- 
-    <p>step 5. slightly cup your palm around dumpling and gently grasp edge of wrapper between your thumb and index finger. carefully fold stretched area on itself creating a pleat.pinch to seal.</p>
- 
-    <p>step 6. put a pot to the stove pour in 3 cup of water let the water hot boil then put your dumpling in and boiled for 10-15 minutes.</p>
- 
-   <p>you can also fried or steamed your dumpling.</p>
-  <h4> conversion</h4>
   <fieldset>
     <legend></legend>
     <label>
@@ -56,6 +62,7 @@ Georgia, https://www.bbc.com/travel/article/20191216-georgias-giant-dumpling-bor
       <input type="text" placeholder="cups">
     </label>
   </fieldset>
+    </div>
   <h4>Rate this recipe</h4>
   <form action="#">
   <fieldset>
@@ -64,6 +71,26 @@ Georgia, https://www.bbc.com/travel/article/20191216-georgias-giant-dumpling-bor
     <label><input type="radio" name="level"/>hard</label>  
   </fieldset>
   </form>
+    </div>
+    <div class="column" style="background-color:yellow;">
+      <div class="flex-container">
+  <h4>Direction</h4>
+  <p>step 1. Put 1 pound of ground pork in a big bowl then use the knife to cut 2 green onion in a cutting board and put everything except for the dumpling wrapper inside the big bowl.</p>
+ 
+    <p>step 2. Mixed everything together and seasoning the mixture according to your taste.</p>
+ 
+    <p>step 3. take the dumpling wrapper out of the plastic bag, place a piece of the dumpling wrapper in your palm.</p>
+      </div>
+ 
+    <p>step 4. use a tablespoon to scoop the meat mixture and place the appropriate amount upon the dumpling wrappers.</p>
+ 
+    <p>step 5. slightly cup your palm around dumpling and gently grasp edge of wrapper between your thumb and index finger. carefully fold stretched area on itself creating a pleat.pinch to seal.</p>
+ 
+    <p>step 6. put a pot to the stove pour in 3 cup of water let the water hot boil then put your dumpling in and boiled for 10-15 minutes.</p>
+ 
+   <p>you can also fried or steamed your dumpling.</p>
+    </div>
   <script src="script.js"></script>
 </body>
 </html>
+  
